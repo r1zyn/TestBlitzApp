@@ -1,24 +1,27 @@
 {
-	"files.autoSave": "afterDelay",
-	"files.autoSaveDelay": 1000,
-	"files.insertFinalNewline": false,
-	"files.trimFinalNewlines": true,
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	},
-	"jest.autoRun": "off",
-	"javascript.format.semicolons": "insert",
-	"javascript.format.placeOpenBraceOnNewLineForFunctions": false,
-	"javascript.updateImportsOnFileMove.enabled": "always",
-	"javascript.preferences.quoteStyle": "double",
-	"typescript.format.semicolons": "insert",
-	"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
-	"typescript.updateImportsOnFileMove.enabled": "always",
-	"typescript.preferences.quoteStyle": "double",
-	"json.format.enable": true,
-	"[prisma]": {
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.insertFinalNewline": false,
+    "files.trimFinalNewlines": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "jest.autoRun": "off",
+    "javascript.format.semicolons": "insert",
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.preferences.quoteStyle": "double",
+    "typescript.format.semicolons": "insert",
+    "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescript.preferences.quoteStyle": "double",
+    "json.format.enable": true,
+    "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "shakram02.bash-beautify"
     }
 }
